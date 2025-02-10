@@ -7,5 +7,7 @@ function backgroundÄndern() {
 
     let rgb = `rgb(${r}, ${g}, ${b})`
 
+    document.getElementById("T").innerText = rgb;
+
     body.style.backgroundColor = rgb;
 }
