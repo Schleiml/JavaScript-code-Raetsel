@@ -2,6 +2,8 @@ function Printing() {
     let Input = document.getElementById("EingabeFeld");
     let Info = Input.value;
     
-    document.getElementById("Printer").innerText = "- " + Info;
-    document.getElementById("EingabeFeld").value = "";
+    let Liste = document.getElementById("Liste");
+    Liste.insertAdjacentHTML('beforeend', `<li>${Info}</li>`);
+
+    Input.value = "";
 }

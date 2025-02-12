@@ -3,13 +3,14 @@ body {
     background-color: #000311;
 }
 
-#I {
+#EingabeFeld {
     height: 25px;
-    margin-top: 0px;
+    margin-top: 10px;
 }
 
 #B {
-    background-color: #54ff54;
+    margin-top: 10px;
+    background-color: #004d8b;
     border: none;
     border-radius: 7px;
     font-size: 25px;
@@ -17,7 +18,7 @@ body {
 }
 #B:hover {
     font-size: 30px;
-    background-color: #9cff9c;
+    background-color: #8fbeff;
 }
 
 #Mittel {
